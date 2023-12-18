@@ -1,6 +1,3 @@
-$(warning "tuning TARGET_BOARD" $(TARGET_BOARD))
-$(warning "tuning CHIP_NAME" $(CHIP_NAME))
-
 #ifeq ($(strip $(CHIP_NAME)),sharkl5Pro)
 #ums512_1h10
 PRODUCT_PACKAGES += libparam_ov32a1q_back_main
