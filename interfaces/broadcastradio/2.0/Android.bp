@@ -22,7 +22,7 @@ cc_library_shared {
         "default/common.cpp",
     ],
 
-    include_dirs: [
+    export_include_dirs: [
     "libnativehelper/include_jni",
     "system/core/include",
     ],
