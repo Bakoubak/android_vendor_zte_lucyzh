@@ -1,0 +1,15 @@
+cc_prebuilt_library_shared {
+    name: "libsoter_trusty",
+    vendor: true,
+    arch: "arm64",
+    srcs: ["lib64/libtrusty.so"],
+    relative_install_path: "vendor/lib64",
+}
+
+cc_prebuilt_library_shared {
+    name: "libsoter_trusty",
+    vendor: true,
+    arch: "arm",
+    srcs: ["lib/libtrusty.so"],
+    relative_install_path: "vendor/lib",
+}
