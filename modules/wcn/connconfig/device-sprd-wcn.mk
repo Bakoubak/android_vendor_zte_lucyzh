@@ -60,13 +60,13 @@ $(error wcn chip ini configuration miss. please fix it, and don't take a random 
 # steven.chen
 endif
 
-$(call inherit-product, vendor/sprd/modules/wcn/connconfig/$(SPRD_WCN_HW_MODEL)/connectivity.mk)
+$(call inherit-product, vendor/zte/lucyzh/modules/wcn/connconfig/$(SPRD_WCN_HW_MODEL)/connectivity.mk)
 ifeq ($(BOARD_SPRD_WCNBT_CARKIT_SET),true)
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := vendor/sprd/modules/wcn/bt/libbt/conf/sprd/$(SPRD_WCNBT_CHISET)/include_carkit \
-                                               vendor/sprd/modules/wcn/bt/libbt/include
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := vendor/zte/lucyzh/modules/wcn/bt/libbt/conf/sprd/$(SPRD_WCNBT_CHISET)/include_carkit \
+                                               vendor/zte/lucyzh/modules/wcn/bt/libbt/include
 else
-BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := vendor/sprd/modules/wcn/bt/libbt/conf/sprd/$(SPRD_WCNBT_CHISET)/include \
-                                               vendor/sprd/modules/wcn/bt/libbt/include
+BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := vendor/zte/lucyzh/modules/wcn/bt/libbt/conf/sprd/$(SPRD_WCNBT_CHISET)/include \
+                                               vendor/zte/lucyzh/modules/wcn/bt/libbt/include
 endif
 
 PRODUCT_PACKAGES += \
