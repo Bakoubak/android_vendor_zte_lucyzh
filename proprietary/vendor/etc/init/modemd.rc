@@ -1,5 +1,0 @@
-service vendor.modemd /vendor/bin/modemd
-    class core
-    user root
-    group system radio shell
-    oneshot

@@ -1,5 +1,0 @@
-service vendor.slogmodem /vendor/bin/slogmodem
-    class main
-    user shell
-    group system sdcard_rw media_rw audio radio
-    writepid /dev/cpuset/system-background/tasks

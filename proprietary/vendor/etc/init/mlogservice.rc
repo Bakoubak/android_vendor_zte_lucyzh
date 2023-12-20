@@ -1,5 +1,0 @@
-service vendor.mlogservice /vendor/bin/mlogservice
-    class main
-    user shell
-    group system media_rw root
-    writepid /dev/cpuset/system-background/tasks

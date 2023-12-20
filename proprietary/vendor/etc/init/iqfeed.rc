@@ -1,5 +1,0 @@
-service vendor.iqfeed /vendor/bin/iqfeed
-    class main
-    user system
-    group system sdcard_rw media_rw
-    disabled
