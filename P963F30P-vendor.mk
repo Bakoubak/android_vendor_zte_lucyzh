@@ -530,6 +530,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/lucyzh/proprietary/vendor/lib/vendor.sprd.hardware.radio.flavor@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.radio.flavor@1.0.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/vendor.sprd.hardware.radio@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.radio@1.0.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/vendor.sprd.hardware.thermal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.sprd.hardware.thermal@1.0.so \
+    vendor/zte/lucyzh/proprietary/vendor/lib/vendor.zte.subsys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.zte.subsys@1.0.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/drm-vts-test-libs/libvtswidevine.so:$(TARGET_COPY_OUT_VENDOR)/lib64/drm-vts-test-libs/libvtswidevine.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/egl/libEGL_POWERVR_ROGUE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libEGL_POWERVR_ROGUE.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/egl/libGLESv1_CM_POWERVR_ROGUE.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLESv1_CM_POWERVR_ROGUE.so \
