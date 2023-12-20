@@ -712,6 +712,3 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ims \
-    LogManager \
-    ModemNotifier \
-    SGPS
