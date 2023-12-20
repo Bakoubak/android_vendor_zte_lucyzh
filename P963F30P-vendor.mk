@@ -518,7 +518,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/lucyzh/proprietary/vendor/lib/npidevice/libreadfixednv.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libreadfixednv.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/npidevice/libtsxrawdata.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libtsxrawdata.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/npidevice/libwifieut.so:$(TARGET_COPY_OUT_VENDOR)/lib/npidevice/libwifieut.so \
-    vendor/zte/lucyzh/proprietary/vendor/lib/ztesensors.so:$(TARGET_COPY_OUT_VENDOR)/lib/ztesensors.so \
+    vendor/zte/lucyzh/proprietary/vendor/lib/libztesensors.so:$(TARGET_COPY_OUT_VENDOR)/lib/libztesensors.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/power.sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib/power.sprd.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/production/libpubefuseapi.so:$(TARGET_COPY_OUT_VENDOR)/lib/production/libpubefuseapi.so \
     vendor/zte/lucyzh/proprietary/vendor/lib/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib/soundfx/libaudiopreprocessing.so \
@@ -696,7 +696,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/lucyzh/proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libFactoryRadioTest.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/npidevice/libcheckkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libcheckkeybox.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/npidevice/libgetuid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libgetuid.so \
-    vendor/zte/lucyzh/proprietary/vendor/lib64/ztesensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ztesensors.so \ 
+    vendor/zte/lucyzh/proprietary/vendor/lib64/libztesensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libztesensors.so \ 
     vendor/zte/lucyzh/proprietary/vendor/lib64/power.sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/power.sprd.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/production/libpubefuseapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/production/libpubefuseapi.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
