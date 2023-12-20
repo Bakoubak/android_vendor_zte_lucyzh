@@ -696,7 +696,7 @@ PRODUCT_COPY_FILES += \
     vendor/zte/lucyzh/proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libFactoryRadioTest.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/npidevice/libcheckkeybox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libcheckkeybox.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/npidevice/libgetuid.so:$(TARGET_COPY_OUT_VENDOR)/lib64/npidevice/libgetuid.so \
-    vendor/zte/lucyzh/proprietary/vendor/lib64/ztesensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ztesensors.so  
+    vendor/zte/lucyzh/proprietary/vendor/lib64/ztesensors.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ztesensors.so \ 
     vendor/zte/lucyzh/proprietary/vendor/lib64/power.sprd.so:$(TARGET_COPY_OUT_VENDOR)/lib64/power.sprd.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/production/libpubefuseapi.so:$(TARGET_COPY_OUT_VENDOR)/lib64/production/libpubefuseapi.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/soundfx/libaudiopreprocessing.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libaudiopreprocessing.so \
