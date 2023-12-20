@@ -416,5 +416,3 @@ PRODUCT_COPY_FILES += \
     vendor/zte/lucyzh/proprietary/vendor/lib64/vendor.sprd.hardware.wifi.supplicant@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.sprd.hardware.wifi.supplicant@1.1.so \
     vendor/zte/lucyzh/proprietary/vendor/lib64/vendor.zte.subsys@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.zte.subsys@1.0.so
 
-PRODUCT_PACKAGES += \
-    ims \
